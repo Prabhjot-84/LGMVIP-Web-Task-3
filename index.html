@@ -19,16 +19,16 @@
 
         <div class="left-container">
             <form>
-                <label> Name &ensp; : &ensp; </label>
+                <label> Name &ensp; &emsp; &ensp; : &ensp;&emsp; </label>
                 <input type="text" class="text-input">
                 <br> <br>
-                <label> Email &ensp; : &ensp; </label>
+                <label> Email &ensp;&emsp;&emsp; : &ensp;&emsp; </label>
                 <input type="text" class="text-input">
                 <br> <br>
-                <label> Website &ensp; : &ensp; </label>
+                <label> Website &ensp;&emsp; : &ensp;&emsp; </label>
                 <input type="text" class="text-input">
                 <br> <br>
-                <label> Image Link &ensp; : &ensp; </label>
+                <label> Image Link &ensp; : &ensp;&emsp; </label>
                 <input type="text" class="text-input">
                 <br> <br>
                 <label> Gender : </label>
@@ -45,14 +45,28 @@
                 <br>
                 &emsp; &emsp;&emsp;&ensp; <input class="select-btn" type="checkbox" name="javascript"> &nbsp; <span class="select-txt"> Javascript </span>
                 <br><br>
-                <input type="submit" class="submit-btn">
+                <input type="submit" class="submit-btn" onclick="enrollStudent()">
             </form>
         </div>
         
         <div class="right-container">
 
             <h2> Enrolled Students </h2>
+            
+            <div class="cards-col" id="cards-col">
+                
+                <div class="card">
+                    <img class="image" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTPyGNr2qL63Sfugk2Z1-KBEwMGOfycBribew&usqp=CAU" alt="">
+                    <ul>
+                        <li>Name : <span>John Cena</span> </li>
+                        <li>Email : <span>johncena007@gmail.com</span> </li>
+                        <li>Website : <span>www.johncena.com</span> </li>
+                        <li>Gender : <span>Sigma Male</span> </li>
+                        <li>Skills : <span>HTML CSS</span> </li>
+                    </ul>
+                </div>
 
+            </div>
             
         </div>
 

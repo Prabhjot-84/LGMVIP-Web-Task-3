@@ -26,7 +26,7 @@ body{
     left: 0%;
     background-color: white;
     background-image: url("https://images.unsplash.com/photo-1532153975070-2e9ab71f1b14?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80");
-    filter: blur(6px) opacity(0.6);
+    filter: blur(4px) opacity(0.6);
 }
 
 h1{
@@ -37,6 +37,8 @@ h1{
     font-weight: 100;
     letter-spacing: -0.5px;
     word-spacing: 1px;
+    border-bottom: 3px solid white;
+    padding: 0 5px;
 }
 
 .container{
@@ -65,11 +67,12 @@ h1{
 .text-input{
     font-family: 'Acme';
     letter-spacing: 0.5px;
+    word-spacing: 1.5px;
     outline: none;
     border: none;
     height: 40px;
     background-color: rgb(240, 240, 240);
-    width: 275px;
+    width: 300px;
     padding: 8px 10px;
     font-size: 21px;
     border-radius: 6px;
@@ -116,10 +119,63 @@ h1{
     transform: scale(1.05);
 }
 
+.right-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+}
+
 h2{
-    width: 100%;
+    margin-top: -1.5vh;
+    margin-bottom: 25px;
     text-align: center;
     letter-spacing: 0.7px;
     word-spacing: 1px;
     font-size: 30px;
+}
+
+.cards-col{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-height: 70vh;
+    width: 100%;
+}
+
+.card{
+    display: flex;
+    align-items: center;
+    padding: 20px 22px;
+    margin-bottom: 25px;
+    height: 25vh;
+    width: 70%;
+    background: black;
+    border-radius: 10px;
+}
+
+.image{
+    height: 140px;
+    width: 140px;
+    border-radius: 7px;
+    margin-right: 25px;
+}
+
+ul{
+    list-style: none;
+}
+
+li{
+    font-family: 'Ropa sans';
+    letter-spacing: 0.4px;
+    word-spacing: 0.8px;
+    font-size: 20px;
+    font-weight: 100;
+    margin: 6px 0;
+    color: white;
+}
+
+ul span{
+    color: dodgerblue;
 }
