@@ -19,13 +19,13 @@ function enrollStudent()
     var js = document.getElementById("js");
 
 
-    // if( name.value === '' || email.value === '' || website.value === '' || imageLink.value === '' || ( genderMale.checked == false && genderFemale.checked == false ) || ( html.checked == false && css.checked == false && js.checked == false ) )
-    // {
-    //     alert("Please fill all the details");
-    //     return false;
-    // }
+    if( name.value === '' || email.value === '' || website.value === '' || imageLink.value === '' || ( genderMale.checked == false && genderFemale.checked == false ) || ( html.checked == false && css.checked == false && js.checked == false ) )
+    {
+        alert("Please fill all the details");
+        return false;
+    }
 
-    // else
+    else
     {
         let div = document.createElement("div");
         div.classList.add("card");
