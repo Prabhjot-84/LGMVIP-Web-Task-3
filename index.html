@@ -18,32 +18,32 @@
     <div class="container">
 
         <div class="left-container">
-            <form>
+            <form id="form">
                 <label> Name &ensp; &emsp; &ensp; : &ensp;&emsp; </label>
-                <input type="text" class="text-input">
+                <input type="text" class="text-input" id="name">
                 <br> <br>
                 <label> Email &ensp;&emsp;&emsp; : &ensp;&emsp; </label>
-                <input type="text" class="text-input">
+                <input type="text" class="text-input" id="email">
                 <br> <br>
                 <label> Website &ensp;&emsp; : &ensp;&emsp; </label>
-                <input type="text" class="text-input">
+                <input type="text" class="text-input" id="website">
                 <br> <br>
                 <label> Image Link &ensp; : &ensp;&emsp; </label>
-                <input type="text" class="text-input">
+                <input type="text" class="text-input" id="image-link">
                 <br> <br>
                 <label> Gender : </label>
                 &emsp;
-                <input class="select-btn" type="radio" name="gender" > &nbsp; <span class="select-txt"> Male </span>
+                <input id="gender-male" class="select-btn" type="radio" name="gender" > &nbsp; <span class="select-txt"> Male </span>
                 <br>
-                &emsp; &emsp; &emsp; &emsp; <input class="select-btn" type="radio" name="gender" > &nbsp; <span class="select-txt"> Female </span>
+                &emsp; &emsp; &emsp; &emsp; <input id="gender-female" class="select-btn" type="radio" name="gender" > &nbsp; <span class="select-txt"> Female </span>
                 <br> <br>
                 <label> Skills : </label>
                 &emsp;
-                <input class="select-btn" type="checkbox" name="html"> &nbsp; <span class="select-txt"> HTML </span>
+                <input id="html" class="select-btn" type="checkbox" name="html"> &nbsp; <span class="select-txt"> HTML </span>
                 <br>
-                &emsp; &emsp;&emsp;&ensp; <input class="select-btn" type="checkbox" name="css"> &nbsp; <span class="select-txt"> CSS </span>
+                &emsp; &emsp;&emsp;&ensp; <input id="css" class="select-btn" type="checkbox" name="css"> &nbsp; <span class="select-txt"> CSS </span>
                 <br>
-                &emsp; &emsp;&emsp;&ensp; <input class="select-btn" type="checkbox" name="javascript"> &nbsp; <span class="select-txt"> Javascript </span>
+                &emsp; &emsp;&emsp;&ensp; <input id="js" class="select-btn" type="checkbox" name="javascript"> &nbsp; <span class="select-txt"> Javascript </span>
                 <br><br>
                 <input type="submit" class="submit-btn" onclick="enrollStudent()">
             </form>
@@ -55,7 +55,7 @@
             
             <div class="cards-col" id="cards-col">
                 
-                <div class="card">
+                <!-- <div class="card">
                     <img class="image" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTPyGNr2qL63Sfugk2Z1-KBEwMGOfycBribew&usqp=CAU" alt="">
                     <ul>
                         <li>Name : <span>John Cena</span> </li>
@@ -64,7 +64,7 @@
                         <li>Gender : <span>Sigma Male</span> </li>
                         <li>Skills : <span>HTML CSS</span> </li>
                     </ul>
-                </div>
+                </div> -->
 
             </div>
             
